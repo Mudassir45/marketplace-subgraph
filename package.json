@@ -4,10 +4,10 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ mudassir/Marketplace-Graph",
-    "create-local": "graph create --node http://localhost:8020/ mudassir/Marketplace-Graph",
-    "remove-local": "graph remove --node http://localhost:8020/ mudassir/Marketplace-Graph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 mudassir/Marketplace-Graph"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ mudassir45/marketplace",
+    "create-local": "graph create --node http://localhost:8020/ mudassir45/marketplace",
+    "remove-local": "graph remove --node http://localhost:8020/ mudassir45/marketplace",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 mudassir45/marketplace"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.19.0",

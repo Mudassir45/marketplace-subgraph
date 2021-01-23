@@ -13,10 +13,10 @@ type Offer @entity {
   id: ID!
   productId: ID!
   price: BigInt
-  quantity: BigInt #x
+  quantity: BigInt
   owner: Bytes
 }
-#x
+
 type ProductDeleted @entity {
   id: ID!
   productId: ID!
